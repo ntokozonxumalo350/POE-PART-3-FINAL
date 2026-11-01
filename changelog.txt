@@ -1,0 +1,86 @@
+Change log
+
+From Part one of the website development i have changed:
+Color theme for the wbsite
+Wireframes
+
+Added
+Initial commit
+Folder structure
+Base HTML pages (index, about, home, contact us, sevices, enquiry)
+Linked CSS
+
+Fixed
+HTML validation issues
+Changed
+Enhanced semantic structure
+Aligned navigation across pages
+
+Added
+Linked external CSS
+Base styles and typography 
+Colour scheme implemented
+
+Added
+Flexbox and Grid layouts
+Hover and focus states
+Changed
+Refined component styling
+
+Added
+Responsive breakpoints (mobile/tablet/desktop)
+Made navigation responsive
+Changed
+Optimised images for different screen sizes
+
+Changed
+Improved accessibility (descriptive alt text)
+Reorganised content for better readability
+
+Changed
+Completed cross-browser testing
+Refined spacing and visual hierarchy
+Performance optimisations
+
+Added
+sitemap.xml for search engine optimisation
+Changed
+Completed code validation ahead of Part 2 submission
+
+Fixed
+Corrected image size
+Changed
+Improved semantic HTML structure
+Updated README content
+
+Added
+Responsiveness Testing and Iteration Across Devices section to README
+Device screenshots under images/Screenshots grouped by Mobile, Tablet, Desktop categories
+Standardised .jpg extensions
+
+Changed
+Updated changelog naming in README
+General copy polish and improvements
+
+Added
+Comprehensive contact form validation (email, phone, required fields)
+Smooth scroll animations throughout the site
+Enhanced
+Social media integration
+
+Changed
+Final polish and bug fixes
+Replaced payment icons with custom SVG versions
+Removed debug styles from CSS
+Standardised CSS logical properties for consistency
+Completed final validation and testing
+
+Fixed
+Updated sitemap.xml with missing 404.html page
+Updated all sitemap lastmod dates to current (October 2025)
+README.md submission date correction (19 November 2025)
+Added
+CHANGELOG.md with comprehensive version history
+
+Changed
+The Enquiry and Contact Us form was changes as it did not fit the style for the website

@@ -1,0 +1,4 @@
+Copy your photos into this folder. The pages expect these filenames:
+logo.jpg, service1.jpg, services1.jpg, service2.jpg, services2.jpg, services22.jpg,
+service3.jpg, services3.jpg, services33.jpg, food1.jpg, support.jpg, kids.jpg, team.jpg
+(Delete this note once your images are in.)

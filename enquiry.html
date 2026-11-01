@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Enquiry — Love From Above NPO</title>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="home.html" class="logo"><img src="images/logo.jpg" alt="">Love From Above NPO</a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+          <li><a href="contactus.html">ContactUs</a></li>
+        </ul>
+      </nav>
+      <a href="enquiry.html" class="btn btn-donate">Donate</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-header">
+      <div class="container">
+        <h1>Make an Enquiry</h1>
+        <p>Whether you need support, want to volunteer, or want to give — tell us more below.</p>
+      </div>
+    </section>
+
+    <!-- Enquiry Form -->
+    <section class="form-page">
+      <div class="container">
+        <div class="form-panel">
+          <h2>Enquiry Form</h2>
+          <p>Complete this form to ask about our services, volunteering, or to make a donation enquiry. We'll read it and get back to you shortly by email or phone.</p>
+
+          <form action="#" method="post" id="enquiry-form" novalidate>
+
+            <fieldset class="name-row">
+              <legend>Name <span class="required" aria-hidden="true">*</span></legend>
+              <div class="name-field">
+                <label for="title" class="visually-hidden">Title</label>
+                <select id="title" name="title">
+                  <option value="">Title</option>
+                  <option>Mr</option>
+                  <option>Mrs</option>
+                  <option>Ms</option>
+                  <option>Dr</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="name-field">
+                <label for="first-name" class="visually-hidden">First name</label>
+                <input type="text" id="first-name" name="first_name" placeholder="First" required>
+              </div>
+              <div class="name-field">
+                <label for="last-name" class="visually-hidden">Last name</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Last" required>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="occupation">Occupation</label>
+              <select id="occupation" name="occupation">
+                <option value="">Select one (optional)</option>
+                <option value="parent">Parent / guardian</option>
+                <option value="student">Student</option>
+                <option value="community">Community member</option>
+                <option value="professional">Working professional</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="field">
+              <label for="enquiry-type">Enquiry type <span class="required" aria-hidden="true">*</span></label>
+              <select id="enquiry-type" name="enquiry_type" required>
+                <option value="">*Please select*</option>
+                <option value="donation">Making a donation</option>
+                <option value="volunteer">Volunteering</option>
+                <option value="services">Accessing services</option>
+                <option value="partnership">Partnership / sponsorship</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Details <span class="required" aria-hidden="true">*</span></label>
+              <p class="field-hint">Detail your enquiry here.</p>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>Love From Above</h3>
+        <p>Kindness needs a pathway and together we can build a kinder world for everyone.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </div>
+      <div class="footer-legal">
+		<p>&copy; 2026 Love From Above NPO. All rights reserved.</p>
+        <p>ST10499028#DISD0601</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

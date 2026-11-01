@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <title>Contact Us — Love From Above NPO</title>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="home.html" class="logo"><img src="images/logo.jpg" alt="">Love From Above NPO</a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contactus.html" aria-current="page">ContactUs</a></li>
+        </ul>
+      </nav>
+      <a href="enquiry.html" class="btn btn-donate">Donate</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you. Reach out any of the ways below.</p>
+      </div>
+    </section>
+
+    <!-- Contact Details -->
+    <section class="contact">
+      <div class="container contact-details">
+        <div>
+          <h2>Get in Touch</h2>
+          <p><strong>Address</strong><br>23 Vivienne St, Chrisville, Johannesburg, 2091</p>
+          <p><strong>Phone</strong><br><a href="tel:+270000000000">+27 069 118 1425</a></p>
+          <p><strong>Email</strong><br><a href="mailto:info@organization.org">info@lovefromabove.co.za</a></p>
+          <p><strong>Office Hours</strong><br>Mon–Fri, 9am–4pm</p>
+        </div>
+        <div id="contact-map" class="map-placeholder" role="img" aria-label="Map showing our location at 23 Vivienne St, Chrisville, Johannesburg">Loading map&hellip;</div>
+      </div>
+    </section>
+
+    <!-- Short Contact Form -->
+    <section class="form-page">
+      <div class="container">
+        <div class="form-panel">
+          <h2>Send a Message</h2>
+          <p>Have a general question or just want to say hello? Send us a message and we'll reply by email.</p>
+
+          <form action="#" method="post" id="contact-form" novalidate>
+
+            <fieldset class="name-row">
+              <legend>Name <span class="required" aria-hidden="true">*</span></legend>
+              <div class="name-field">
+                <label for="c-title" class="visually-hidden">Title</label>
+                <select id="c-title" name="title">
+                  <option value="">Title</option>
+                  <option>Mr</option>
+                  <option>Mrs</option>
+                  <option>Ms</option>
+                  <option>Dr</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="name-field">
+                <label for="c-first-name" class="visually-hidden">First name</label>
+                <input type="text" id="c-first-name" name="first_name" placeholder="First" required>
+              </div>
+              <div class="name-field">
+                <label for="c-last-name" class="visually-hidden">Last name</label>
+                <input type="text" id="c-last-name" name="last_name" placeholder="Last" required>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="c-email">Email <span class="required" aria-hidden="true">*</span></label>
+              <input type="email" id="c-email" name="email" required>
+            </div>
+
+            <div class="field">
+              <label for="c-message">Message <span class="required" aria-hidden="true">*</span></label>
+              <p class="field-hint">Tell us what's on your mind.</p>
+              <textarea id="c-message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>Love From Above NPO</h3>
+        <p>Kindness needs a pathway and together we can build a kinder world for everyone.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </div>
+      <div class="footer-legal">
+		<p>&copy; 2026 Love From Above NPO. All rights reserved.</p>
+        <p>ST10499028#DISD0601</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

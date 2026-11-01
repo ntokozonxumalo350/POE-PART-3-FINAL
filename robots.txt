@@ -1,0 +1,8 @@
+# robots.txt for Love From Above NPO
+# Lets all search engines crawl the whole site and points them to the sitemap.
+# Live site: https://stellar-dasik-9b4e23.netlify.app
+
+User-agent: *
+Allow: /
+
+Sitemap: https://stellar-dasik-9b4e23.netlify.app/sitemap.xml
